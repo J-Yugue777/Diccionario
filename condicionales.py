@@ -299,7 +299,7 @@
 #     print("si esta ")
 # else:
 #     print("no esta ")
-# print(li)
+# print(li)gitn 
 #EJERCICIO 13
 # li=[int(input("ingrese un numero a la lista ")),int(input("ingrese un numero a la lista ")),int(input("ingrese un numero a la lista ")),int(input("ingrese un numero a la lista "))]
 # if li[0]+li[1]>=10:
