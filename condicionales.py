@@ -314,9 +314,97 @@
 #     print("no esta en la lista ")
 # print(lis)
 #EJERCICIO 15
-l=[input("ingrse un color"),input("ingrse un color"),input("ingrse un color")]
-if l[1]=="azul":
-    nclor=input("ingrese nuevo color : ")
-    print(l.insert)
-else:
-    print(l)
+# l=[input("ingrese un color :"),input("ingrese un color :"),input("ingrese un color :")]
+# if l[1]=="azul":
+#     nclor=input("ingrese nuevo color : ")
+#     l.remove("azul")
+#     l.insert(1,nclor)
+#     print(l)
+# else:
+#     print(l)
+#EJERCICIO 16
+# tu=(5,12,8,20)
+# if tu[0]<tu[3]:
+#     l=list(tu)
+#     l.sort()
+#     tup=tuple(l)
+#     print(tup)
+# else :
+#     print(tu)
+#EJERCICIO 17
+# tu=(int(input("ingrese un nuemro ")),int(input("ingrese un nuemro ")),int(input("ingrese un nuemro ")))
+# if tu[1]>29:
+#     print("es mayor  a 30")
+# else:
+#     print("es menor a 30 ")
+#EJERCICIO 18
+# t=(1,2,3)
+# l=list(t)
+# if l[1]==2:
+#     l.remove(2)
+#     l.insert(1,10)
+#     tu=tuple(l)
+#     print(tu)
+# else:
+#     print(t)
+#EJERCICIO 19
+# tu=(int(input("ingrese un numero : ")),int(input("ingrese un numero : ")))
+# if tu[1]>4:
+#     print("cordenada alta ")
+# else:
+#     print("coordenada baja ")
+#EJERCICIO 20 
+# t1=(int(input("inserte un numero : ")),int(input("inserte un numero : ")))
+# print(t1)
+# t2=(int(input("inserte un numero : ")),int(input("inserte un numero : ")))
+# print(t2)
+# if t1==t2:
+#     print(f"{t1} y {t2} tuplas iguales ")
+# else:
+#     print(f" {t1} y {t2}  tuplas diferentes ")
+#EJERCICIO 21
+# d={
+#     "nombre":input("ingrese su nombre : "),
+#     "edad": int(input("ingresa tu edad : "))
+# }
+# if d["edad"]>=18:
+#     print(f" {d['nombre']} usted es mayor de edad ")
+# else:
+#     print("usted es menor de edad ")
+#EJERCICIO 22
+# d={
+#     "nombre":"lucia",
+#     "edad":int(input("ingrese su edad : "))
+# }
+# if d["edad"]>18:
+#     d["edad"]=21
+#     print(d)
+# else:
+#     print(d)
+#EJERCICIO 23 
+# d={
+#     "nombre":"carlos"
+# }
+# if "cuidad" not in d:
+#     d["cuidad"]="bogota"
+#     print(d)
+#EJERCICIO 24
+# d={
+#     "producto":input("ingrese un producto : "),
+#     "precio":int(input("ingrese el valor : "))
+# }
+# if "precio" not in d:
+#     print("no hay precio ")
+#     print(d)
+# else : 
+#     print(d)
+#EJERCICIO 25}
+
+# dic={
+#     "pan":1200,
+#     "leche":2000
+# }
+# if "pan" not in dic :
+#     print("producto no disponible ")
+# else:
+#     print(dic["pan"])
